@@ -16,7 +16,6 @@ public class RNAppstoreVersionCheckerPackage implements ReactPackage {
       return Arrays.<NativeModule>asList(new RNAppstoreVersionCheckerModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
       return Collections.emptyList();
     }
